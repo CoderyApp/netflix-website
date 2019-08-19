@@ -49,3 +49,10 @@ a {
 .navigation__link {
     margin-left: 16px;
 }
+
+.header__featured {
+    align-items: flex-end;
+    display: flex;
+    height: 650px;
+    overflow: hidden;
+}
