@@ -1,0 +1,17 @@
+.header {
+    background: lightcoral;
+}
+
+.main {
+    background: lightgray;
+}
+
+.footer {
+    background: lightgreen;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
