@@ -30,10 +30,36 @@ body {
     color: #a2abaf;
 }
 
+.footer__social-icon:hover {
+    color: #FFF;
+}
+
+.icon-facebook:hover {
+    background: #3B5998;
+}
+
+.icon-twitter:hover {
+    background: #55ACEE;
+}
+
+.icon-google:hover {
+    background: #DD4B39;
+}
+
+
 .footer__copyrights-text {
     color: #7e7e7e;
 }
 
 .border--top {
     border-top: 1px solid #424242;
+}
+
+.navigation__link:after {
+    background: linear-gradient(to right, #ef3d37 0%, #b80a53 100%);
+    color: transparent;
+}
+
+.navigation__link:hover {
+    color: #ef3d37;
 }
