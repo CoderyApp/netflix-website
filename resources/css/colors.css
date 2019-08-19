@@ -21,3 +21,19 @@ body {
 .movie__likes {
     color: #28b47e;
 }
+
+.footer {
+    background: #242424;
+}
+
+.footer__social-icon {
+    color: #a2abaf;
+}
+
+.footer__copyrights-text {
+    color: #7e7e7e;
+}
+
+.border--top {
+    border-top: 1px solid #424242;
+}
