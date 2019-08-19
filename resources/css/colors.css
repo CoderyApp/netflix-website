@@ -2,10 +2,22 @@ h1, h2, h3, h4, h5, h6, p, li, ul, a {
     color: white;
 }
 
+body {
+    background: #151515;
+}
+
 .button--accent {
     background: linear-gradient(to right, #ef3d37 0%, #b80a53 100%);
 }
 
 .header {
     background: #000000;
+}
+
+.movie__title, .movie__views {
+    color: #a9a9a9;
+}
+
+.movie__likes {
+    color: #28b47e;
 }
