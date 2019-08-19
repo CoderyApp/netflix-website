@@ -25,6 +25,10 @@ h3 {
     font-size: 2.4rem;
 }
 
+h4 {
+    font-size: 1.4rem;
+}
+
 p {
     font-size: 1.1rem;
 }
@@ -110,4 +114,35 @@ a {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 10px;
     row-gap: 40px;
+}
+
+.movie {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie iframe {
+    border: none;
+    height: 190px;
+    width: 100%;
+}
+
+.movie__details {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.movie__stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.movie__title {
+    display: -webkit-box;
+    flex-grow: 1;
+    margin: 12px 0;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
 }
