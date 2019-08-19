@@ -145,3 +145,17 @@ a {
     margin-bottom: 16px;
     margin-top: 16px;
 }
+
+.footer__socials {
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+
+.footer__social-icon {
+    display: block;
+    font-size: 20px;
+    min-width: 20px;
+    padding: 10px;
+    text-align: center;
+}
