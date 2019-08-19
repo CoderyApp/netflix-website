@@ -54,5 +54,13 @@ a {
     align-items: flex-end;
     display: flex;
     height: 650px;
+    position: relative;
     overflow: hidden;
+}
+
+.featured__video {
+    position: absolute;
+    height: inherit;
+    object-fit: cover;
+    width: 100%;
 }
