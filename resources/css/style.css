@@ -21,6 +21,10 @@ h2 {
     font-weight: 600;
 }
 
+h3 {
+    font-size: 2.4rem;
+}
+
 p {
     font-size: 1.1rem;
 }
@@ -94,4 +98,16 @@ a {
 
 .featured__link {
     margin-top: 15px;
+}
+
+.category {
+    margin: 100px 0;
+}
+
+.category__items {
+    column-gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 10px;
+    row-gap: 40px;
 }
